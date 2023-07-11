@@ -1,0 +1,225 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Início do Header */
+header{
+    width: 100%;
+    height: 120px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.linkMenu {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+#ladoesquerdo , #ladodireito{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#ladoesquerdo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ladodireito{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#abraConta{
+    width: 150px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+/* Fim do Header */
+
+ /* Início da pagina */
+ main{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+ }
+
+ /*Banner Bem vindo*/
+#imgBanner{
+    background-image: url(images/banner.jpg);
+    background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+#sejaBemVindo{
+    width: 780px;
+    height: 300px;
+    padding: 25px 25px;
+    background-color: rgba(195, 223, 71, 0.651);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+#sejaBemVindo h1{
+    margin-left: 20px;
+}
+
+#facaSuaConta{
+    width: 200px;
+    height: 80px;
+    background-color:rgb(19, 19, 19) ;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*Fim Banner Bem vindo*/
+.titulo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formasPagamento{
+    width: 70%;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.formaPagamento{
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.imgsFormaPagamento{
+    width: 150px;
+    height: 150px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Inicio da parte contrate nossos serviços*/
+#contrateServico{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contrateServico h2{
+    margin-left: 20px;
+    font-size: 28px;
+}
+#contrateServico p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#imgServico{
+    width:60%;
+    background-image: url(images/bannerBeneficios.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+#conteudoContrate{
+    width: 45%;
+    height: 80%;
+    color: white;    
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 20px;
+}
+#imgServico{
+    width: 45%;
+    height: 90%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sejaCliente{
+    width: 70%;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.imgsCartao{
+    width: 30%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#cartao1{
+    background-image: url(images/cartaoUm.jpg);
+    
+}
+#cartao2{
+    background-image: url(images/cartaoUm.jpg);
+    
+}
+#cartao3{
+    background-image: url(images/cartaoUm.jpg);
+    
+}
